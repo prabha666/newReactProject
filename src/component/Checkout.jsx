@@ -9,7 +9,7 @@ const state=useSelector((state)=>state.handleCard)
 var total=0;
 
 const itemList=(item)=>{
-    total=total + item.price;
+    total=total + item.price*10;
     return(
         <li className="list-group-item d-flex justify-content-between ">
             <div className="my-0">
